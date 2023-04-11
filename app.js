@@ -46,9 +46,9 @@
 //TASK : 4
 
 
-// function addListItem() {
-//     const myList = document.getElementById('myList');
-//     const newListItem = document.createElement('li');
-//     newListItem.textContent = 'This is a new list item.';
-//     myList.appendChild(newListItem);
-//   }
+function addingList() {
+    const myList = document.getElementById('myList');
+    const newListItem = document.createElement('li');
+    newListItem.textContent = 'apples.';
+    myList.appendChild(newListItem);
+  }
